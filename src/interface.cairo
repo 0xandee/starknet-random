@@ -1,14 +1,3 @@
-# starknet-random
-
-A provable oracle-less computationally random number generator contract.
-
-Has a seed on chain that gets updated with each call.
-
-The more use it gets, the more random it gets.
-
-DO NOT USE FOR SECURITY.
-
-```
 #[starknet::interface]
 trait IRandom<TContractState> {
     fn felt252(ref self: TContractState, seed: felt252) -> felt252;
@@ -27,4 +16,3 @@ trait IRandom<TContractState> {
     fn u256_capped(ref self: TContractState, seed: felt252, cap: u256) -> u256;
     fn salt(ref self: TContractState, salt: felt252);
 }
-```

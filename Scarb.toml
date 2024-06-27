@@ -1,0 +1,12 @@
+[package]
+cairo-version = "2.6.3"
+name = "random"
+version = "0.1.0"
+
+[cairo]
+sierra-replace-ids = true
+
+[dependencies]
+starknet = ">=2.6.3"
+
+[lib]

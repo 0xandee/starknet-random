@@ -1,0 +1,15 @@
+{
+	"version": 1,
+	"contracts": [
+		{
+			"id": "v4lostt1m18ka",
+			"package_name": "random",
+			"contract_name": "arcade_blobert_actions",
+			"module_path": "random::contract::arcade_blobert_actions",
+			"artifacts": {
+				"sierra": "random_arcade_blobert_actions.contract_class.json",
+				"casm": "random_arcade_blobert_actions.compiled_contract_class.json"
+			}
+		}
+	]
+}

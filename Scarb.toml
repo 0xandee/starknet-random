@@ -9,4 +9,7 @@ sierra-replace-ids = true
 [dependencies]
 starknet = ">=2.6.3"
 
+[[target.starknet-contract]]
+casm = true
+
 [lib]
